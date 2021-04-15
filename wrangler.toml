@@ -1,0 +1,10 @@
+name = "times-table-app"
+type = "webpack"
+account_id = "65ef6b81f3ef35e88660af1bd2b580d0"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./build"
+entry-point = "./workers-site"
