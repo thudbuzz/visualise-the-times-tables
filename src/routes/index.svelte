@@ -6,44 +6,33 @@
 </svelte:head>
 
 <main>
-  <h1>Hello world!</h1>
-
-  <p>
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
-  </p>
+  <div class="grid">
+    {#each Array(10) as _, row}
+      {#each Array(10) as _, i}
+        <div class="grid-item">{i + 1 + 10 * row}</div>
+      {/each}
+    {/each}
+  </div>
 </main>
 
 <style>
   main {
     text-align: center;
-    padding: 1em;
     margin: 0 auto;
+    width: 360px;
   }
 
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4rem;
-    font-weight: 100;
-    line-height: 1.1;
-    margin: 4rem auto;
-    max-width: 14rem;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
   }
 
-  p {
-    max-width: 14rem;
-    margin: 2rem auto;
-    line-height: 1.35;
-  }
-
-  @media (min-width: 480px) {
-    h1 {
-      max-width: none;
-    }
-
-    p {
-      max-width: none;
-    }
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    height: 35px;
+    width: 35px;
   }
 </style>
