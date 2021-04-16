@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>Times Table App</title>
+  <title>Visualise The Times Tables</title>
 </svelte:head>
 
 <main>
