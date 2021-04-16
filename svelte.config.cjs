@@ -1,4 +1,4 @@
-const cloudflare = require("@sveltejs/adapter-cloudflare-workers");
+// const cloudflare = require("@sveltejs/adapter-cloudflare-workers");
 const static = require("@sveltejs/adapter-static");
 const pkg = require("./package.json");
 
