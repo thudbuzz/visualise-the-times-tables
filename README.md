@@ -1,9 +1,9 @@
 # TODO
 
-- [x] Build for workers
-- [x] Build for pages - use the static adapter?
-- [ ] Add the urls to the github repo
-- [ ] Update the description on the github repo
+- [x] Build for Cloudflare Workers - https://visualise-the-times-tables.thudbuzz.workers.dev
+- [x] Build for Cloudflare Pages - https://visualise-the-times-tables.pages.dev
+- [x] Add the urls to the github repo
+- [x] Update the description on the github repo
 - [x] Update the README
 
 ## How to deploy to Cloudflare Workers
