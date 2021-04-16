@@ -1,4 +1,4 @@
-name = "times-table-app"
+name = "visualise-the-times-tables"
 type = "webpack"
 account_id = "65ef6b81f3ef35e88660af1bd2b580d0"
 workers_dev = true
