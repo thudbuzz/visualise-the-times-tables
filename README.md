@@ -1,3 +1,11 @@
+# TODO
+
+- [x] Build for workers
+- [ ] Build for pages - use the static adapter?
+- [ ] Add the urls to the github repo
+- [ ] Update the description on the github repo
+- [ ] Update the README
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
