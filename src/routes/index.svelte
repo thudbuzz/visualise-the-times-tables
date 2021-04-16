@@ -21,7 +21,11 @@
   </div>
   <div class="btn-row">
     {#each Array(10) as _, a}
-      <button class="btn" on:click={() => (tableNum = a + 1)}>{a + 1}</button>
+      <button
+        class="btn"
+        class:green={tableNum === a + 1}
+        on:click={() => (tableNum = a + 1)}>{a + 1}</button
+      >
     {/each}
   </div>
 </main>
@@ -30,22 +34,23 @@
   main {
     text-align: center;
     margin: 0 auto;
-    width: 360px;
+    max-width: 360px;
   }
 
   .grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     gap: 1px;
+    height: 360px;
   }
 
   .grid-item {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
     background-color: gainsboro;
-    height: 35px;
-    width: 35px;
   }
 
   .green {
