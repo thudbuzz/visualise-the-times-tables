@@ -1,4 +1,4 @@
-# TODO
+# TODOs
 
 - [x] Build for Cloudflare Workers - https://visualise-the-times-tables.thudbuzz.workers.dev
 - [x] Build for Cloudflare Pages - https://visualise-the-times-tables.pages.dev
