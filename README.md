@@ -1,10 +1,15 @@
-# TODOs
+# Visualise the Times Tables
 
-- [x] Build for Cloudflare Workers - https://visualise-the-times-tables.thudbuzz.workers.dev
-- [x] Build for Cloudflare Pages - https://visualise-the-times-tables.pages.dev
-- [x] Add the urls to the github repo
-- [x] Update the description on the github repo
-- [x] Update the README
+Just a quick project to help my son visualise the times tables.
+
+## Svelte Kit and Cloudflare
+
+I wanted to try and deploy one static project built in Svelte Kit to both Cloudflare Workers and Pages. I was able to use the adapters built in to Svelte Kit to accomplish this with ease - and working with Cloudflare has been just as sweet.
+
+Both builds can be found here:
+
+https://visualise-the-times-tables.pages.dev
+https://visualise-the-times-tables.thudbuzz.workers.dev
 
 ## How to deploy to Cloudflare Workers
 
