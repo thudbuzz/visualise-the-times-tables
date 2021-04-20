@@ -9,6 +9,7 @@ I wanted to try and deploy one static project built in Svelte Kit to both Cloudf
 Both builds can be found here:
 
 https://visualise-the-times-tables.pages.dev
+
 https://visualise-the-times-tables.thudbuzz.workers.dev
 
 ## How to deploy to Cloudflare Workers
